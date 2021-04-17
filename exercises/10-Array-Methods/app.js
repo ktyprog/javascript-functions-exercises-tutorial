@@ -1,7 +1,5 @@
-var names = ['John', 'Kenny', 'Tom', "Bob", 'Dilan'];
-
-function sortNames(){
-
+const sortNames=(array)=>{
+    let orderName = array.sort();
+    return orderName;
 }
-
-console.log(sortNames(names));
+  console.log(sortNames(['katy','david','diana','frank','Guillermo' ,'abraham','rencel']));
